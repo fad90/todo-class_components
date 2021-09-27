@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    align-items: flex-end;
+}
+.header__text {
+    font-size: 30px;
+    font-weight: 600;
+}
+.header__count {
+    margin-left: 20px;
+}
