@@ -5,10 +5,10 @@ import "./app-header.css"
 class AppHeader extends React.Component {
   render() {
     return (
-      <header className="header">
-        <div className="header__text">Todo List</div>
-        <div className="header__count">4 more todo, 0 done</div>
-      </header>
+      <div className="header">
+        <h1 className="header__text">Todo List</h1>
+        <h2 className="header__count">4 more todo, 0 done</h2>
+      </div>
     );
   }
 }
