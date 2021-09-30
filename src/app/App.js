@@ -4,6 +4,7 @@ import "./App.css";
 import AppHeader from "../app-header/app-header";
 import ItemStatusFilter from "../item-status-filter/item-status-filter";
 import SearchPanel from "../search-panel/search-panel";
+import TodoList from "../todo-list/todo-list";
 
 class App extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class App extends React.Component {
           <SearchPanel />
           <ItemStatusFilter />
         </div>
+        <TodoList />
       </div>
     );
   }
