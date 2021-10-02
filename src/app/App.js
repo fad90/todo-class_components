@@ -6,19 +6,23 @@ import ItemStatusFilter from "../item-status-filter/item-status-filter";
 import SearchPanel from "../search-panel/search-panel";
 import TodoList from "../todo-list/todo-list";
 
-class App extends React.Component {
-  render() {
-    return (
-      <div className="app">
-        <AppHeader />
-        <div className="search-panel">
-          <SearchPanel />
-          <ItemStatusFilter />
-        </div>
-        <TodoList />
+const App = () => {
+  const todoData = [
+    {label: "Drink Cofee", important: true},
+    {label: "Build App", important: false},
+    {label: "Learn Korean Language", important: true}
+  ]
+
+  return (
+    <div className="app">
+      <AppHeader />
+      <div className="search-panel">
+        <SearchPanel />
+        <ItemStatusFilter />
       </div>
-    );
-  }
-}
+      <TodoList todos={todoData}/>
+    </div>
+  );
+};
 
 export default App;

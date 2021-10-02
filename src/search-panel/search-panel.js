@@ -4,7 +4,7 @@ import "./search-panel.css";
 
 class SearchPanel extends React.Component {
   render() {
-    return <input type="text" placeholder="search" />;
+    return <input type="text" className="search-input" placeholder="search" />;
   }
 }
 

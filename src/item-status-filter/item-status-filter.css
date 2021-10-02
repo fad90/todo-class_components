@@ -1,3 +1,16 @@
 .btn-group {
     margin-left: 10px;
 }
+.button-filter {
+    background-color: #ffffff;
+    border: 2px solid #92cafa;
+    border-radius: 3px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.button-filter:hover {
+    background-color: #92cafa;
+}
+/* .button-filter:focus {
+    background-color: #33A1FF;
+} */
