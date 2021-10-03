@@ -1,4 +1,5 @@
 .todo-list {
     list-style-type: none;
     width: 89%;
+    padding: 0;
 }
