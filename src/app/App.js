@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./App.css";
 import AppHeader from "../app-header/app-header";
 import ItemStatusFilter from "../item-status-filter/item-status-filter";
@@ -8,9 +7,9 @@ import TodoList from "../todo-list/todo-list";
 
 const App = () => {
   const todoData = [
-    {label: "Drink Cofee", important: true},
-    {label: "Build App", important: false},
-    {label: "Learn Korean Language", important: true}
+    {label: "Drink Cofee", important: true, id:1},
+    {label: "Build App", important: false, id:2},
+    {label: "Learn Korean Language", important: true, id:3}
   ]
 
   return (

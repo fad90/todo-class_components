@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./app-header.css"
 
 class AppHeader extends React.Component {
