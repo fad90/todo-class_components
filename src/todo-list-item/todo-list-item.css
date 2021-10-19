@@ -37,3 +37,6 @@
 .fas {
     color: rgb(0, 0, 0);
 }
+.done {
+    text-decoration: line-through;
+}
