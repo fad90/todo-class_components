@@ -40,3 +40,7 @@
 .done {
     text-decoration: line-through;
 }
+.important-mark {
+    color: rgb(38, 95, 218);
+    font-weight: 600;
+}
