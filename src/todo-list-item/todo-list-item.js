@@ -24,9 +24,8 @@ export default class TodoListItem extends Component {
   }
 
   render() {
-    const { label } = this.props;
-    const { done } = this.state;
-    const { important } = this.state;
+    const { label, onDeleted } = this.props;
+    const { done, important } = this.state;
 
     let classNames = 'todo__text'
     if(done) {
@@ -44,7 +43,8 @@ export default class TodoListItem extends Component {
           {label}
         </span>
         <div className="todo__button-group">
-          <button className="todo__button todo__button-trash">
+          <button className="todo__button todo__button-trash"
+          onClick={onDeleted}>
             <i class="far fa-trash-alt"></i>
           </button>
           <button className="todo__button todo__button-exclamation"
@@ -57,24 +57,3 @@ export default class TodoListItem extends Component {
   }
 }
 
-// const TodoListItem = ({label, important=false}) => {
-//   const style = {
-//     color: important ? "green" : "red"
-//   }
-
-//   return (
-//     <span className="todo">
-//       <span style={style} className="todo__text">{label}</span>
-//       <div className="todo__button-group">
-//         <button className="todo__button todo__button-trash">
-//           <i class="far fa-trash-alt"></i>
-//         </button>
-//         <button className="todo__button todo__button-exclamation">
-//           <i class="fas fa-exclamation"></i>
-//         </button>
-//       </div>
-//     </span>
-//   );
-// }
-
-// export default TodoListItem;
