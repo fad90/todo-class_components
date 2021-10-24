@@ -1,19 +1,17 @@
 .btn-group {
     margin-left: 10px;
 }
-.btn-outline-secondary {
+.btn {
     background-color: #ffffff;
     border: 2px solid #92cafa;
     border-radius: 3px;
     margin: 0 3px;
     cursor: pointer;
 }
-/* .button-filter:hover {
-    background-color: #92cafa;
-} */
+.btn-outline-secondary {
+    
+}
+
 .btn-info {   /*active button*/
     background-color: #92cafa;
 }
-/* .button-filter:focus {
-    background-color: #33A1FF;
-} */
