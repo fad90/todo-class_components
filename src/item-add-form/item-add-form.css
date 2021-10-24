@@ -1,6 +1,13 @@
 .add-form {
-
+    width: 89%;
+    display: flex;
+    justify-content: center;
 }
 .add-form__button {
     
+}
+.add-form__input {
+    margin-right: 5px;
+    outline: none;
+    flex-grow: 1;
 }
